@@ -4,8 +4,8 @@ import {
   keepPreviousData,
 } from "@tanstack/react-query";
 import { useDebounce } from "use-debounce";
-import { fetchNotes} from "../../services/notService";
-import type { FetchNotesResponse } from "../../services/notService";
+import { fetchNotes} from "../../services/noteService";
+import type { FetchNotesResponse } from "../../services/noteService";
 
 import SearchBox from "../SearchBox/SearchBox";
 import NoteList from "../NoteList/NoteList";
